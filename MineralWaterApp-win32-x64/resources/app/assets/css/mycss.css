@@ -1,0 +1,78 @@
+body{
+  background-image: url('bg1.jpg');
+  background-size: 1380px 720px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-family: 'Charmonman', cursive;
+  color: black;
+  font-size: 35px;
+}
+
+.inp{
+  padding: 12px;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 20%;
+  font-family: 'Lato', sans-serif;
+}
+
+.inp:focus{
+  background-color: #fff6;
+  border: 2px solid black;
+}
+
+.btn{
+  padding: 12px;
+  width: 13%;
+  background-color: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: black;
+
+}
+
+.btn:hover{
+  background-color: #fff6;
+  color: white;
+  color: black;
+}
+
+/* social links */
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+label{
+  margin-left: -36px;
+}
+.error{
+  color: red;
+}
+
+
+@media screen and (max-width: 600px) {
+  .inp{
+    width: 65%;
+  }
+  .btn{
+    width: 60%;
+  }
+  label{
+    display: none;
+  }
+}

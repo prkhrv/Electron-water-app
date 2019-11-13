@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mycss.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald'>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+  	<center>
+    <h1>Mineral Water Supply Corporation</h1>
+    <br>
+    <div id="about">
+    	I am very glad to provide you a wonderful computerised system from the manual system <br>
+    	this system provides you a lots of functionalities for user and admin. user and admin can login<br>
+    	this system and can access all functionalities.
+    	
+    </div>
+    <br>
+    <div>
+      <button class="btn" onclick="user_login()">LOGIN</button>
+      <button class="btn" onclick="admin_login()">ADD USER</button>
+
+    	
+    </div>
+	</center>
+
+
+	<script type="text/javascript">
+		function user_login(){
+
+			console.log("user login");
+			window.location.replace("./assets/pages/user/login.html");
+
+			// body...
+		}
+		function admin_login(){
+
+			console.log("admin login");
+			window.location.replace("./assets/signup.html");
+
+			// body...
+		}
+	</script>
+
+  </body>
+</html>
